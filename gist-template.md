@@ -15,13 +15,10 @@ A regular expression can contain several components. For the purpose of this ass
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
 - [Character Classes](#character-classes)
-- 
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+
 
 ## Regex Components
 
@@ -38,21 +35,16 @@ The character classes are a way of grouping different characters without enforci
 The period(.) indcates to match any character.
 
 
-
-
-
 ### Grouping and Capturing
-
+The grouping and capturing classes group characters together. You can see this in the email regex with the () around the different parts of the email validation.
 ### Bracket Expressions
-
+A bracket expression is a list of characters enclosed in brackets. There are 3 areas where this happens in the email regex. Each character is validated against the list or range within the brackets. in this situation we are looking for alpha between a and z and numeric characters between 0 and 9.
 ### Greedy and Lazy Match
-
+The email regex includes greedy matches. A greedy match is indicated by the + in the expression. This can be used many times as necessary to make sure characters meet the validation. 
 ### Boundaries
 
-### Back-references
 
-### Look-ahead and Look-behind
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This document was authored by Chris. I am a baby web developer and my github can be found at:https://github.com/rehpotsirhc21/Regex-Overview
